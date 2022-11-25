@@ -1,0 +1,31 @@
+@post: /api/signup {
+    body {
+        email, name, password, info, serverKey
+    }
+}
+
+@post: /api/signin {
+    body {
+        email, password
+    }
+}
+
+@post: /api/patient (protect) {
+    body {
+        name, date, blood, address
+    }
+}
+
+@patch: /api/patient (protect) {
+    body {
+        text, treatment, patientID, hospital , chronic
+    }
+}
+
+@get: /api/patient/:id {}
+
+@delete: /api/patient/:patientID/:diagnose {}
+
+@get: /api/doctor/:id {}
+
+@patch: /api/diagnose/:id (protect) {}

@@ -1,0 +1,16 @@
+- Add patient UI . (done)
+- Add patient Funcion . (done) =>
+- /patient/id page. (done)
+ 
+- Add Diagnose Ui . (done)
+- Add diagnose Funcion . (done)
+
+- add QR code . (done)
+
+- Add section for chronic diseases . 
+- Mark Diagnose as Done .
+- Get doctor modal .
+- Improve the UI .
+- Add UI to home page .
+- Last touches .
+- deployment V1 .
