@@ -1,4 +1,4 @@
-export const baseURL = "https://id-medical.herokuapp.com/"; //before deploing "http://localhost:3333"
+export const baseURL = "https://id-medical.herokuapp.com"; //before deploing "http://localhost:3333"
 
 export const basicConfig = {
   headers: {
